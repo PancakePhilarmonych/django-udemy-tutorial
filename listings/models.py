@@ -25,13 +25,10 @@ class Listing(models.Model):
 	photo_6 = models.ImageField(upload_to='photos/%Y/%m/%d/', blank=True)
 	is_published = models.BooleanField(default=True)
 	list_data = models.DateTimeField(default=datetime.now, blank=True)
+
+	class Meta:
+		verbose_name = "Listing"
+		verbose_name_plural = "Listings"
+    
 	def __str__(self):
 		return self.title
-
-    class Meta:
-        verbose_name = "Listing"
-        verbose_name_plural = "Listings"
-
-    def __str__(self):
-        pass
-    
