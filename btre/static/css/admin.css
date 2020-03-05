@@ -1,6 +1,6 @@
 #header {
-	height: 50px;
-	background: #10284e;
+	min-height: 50px;
+	background: #2f343f;
 	color: #fff;
 }
 
@@ -10,28 +10,28 @@
 
 a:link,
 a:visited {
-	color: #10284e;
+	color: #353b48;
 }
 
 div.breadcrumbs {
-	background: #ee5253;
+	background: #78e08f;
     border: none;
     font-size: 18px;
-    color: #10284e;
+    color: #353b48;
     text-align: left;
 }
 
 div.breadcrumbs a:focus, div.breadcrumbs a:hover {
-    color: #10284e;
+    color: #353b48;
 }
 
 .module caption, .inline-group h2 {
-	background: #ee5253;
-	border-radius: 5px;
+	background: #78e08f;
+	border-radius: 2px;
 }
 
 .button input[type=submit]{
-	color: #10284e;
+	color: #353b48;
 }
 
 .button, input[type=submit], input[type=button], .submit-row input, a.button {
@@ -39,5 +39,5 @@ div.breadcrumbs a:focus, div.breadcrumbs a:hover {
 }
 
 .button.default, input[type=submit].default, .submit-row input.default {
-	background: #2ed573;
+	background: #78e08f;
 }
